@@ -4,7 +4,12 @@
 - [x] Rewrite Session endpoints for GS
 - Add All Quests from S6 - S11
 
-# Save The World
+# Creative
+
+- Save Island Plots into profile / database
+
+
+# Save The World (unessesary as)
 
 - Proper Quest Claiming
 - Quest Granting (Progression)
@@ -23,7 +28,3 @@
 - Hero Assinging
 - Survivor Assinging
 - Defender Assigning
-
-# Creative
-
-- Save Island Plots into profile / database
