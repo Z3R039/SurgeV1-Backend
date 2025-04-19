@@ -14,9 +14,6 @@
 <br />
 Version's 12.41 onwards are not supported and your character will be invisible.
 
-## TODO
-Read todo here [TODO.md](./TODO.md)
-
 ## Requirements
 - [Bun](https://bun.sh)
 - [Git](https://git-scm.com/downloads)
@@ -58,6 +55,13 @@ Read todo here [TODO.md](./TODO.md)
 - [x] Authentication using Permissions (eg... `fortnite:profile:abcd1234:commands`)
 - [x] Leaderboards (Stats)
 - [x] Launcher stuff (node for public use, you can try to use it)
+- [x] Quest Claiming
+- [x] Rewrite Session endpoints for GS
+- [ ] Add All Quests from S6 - S11
+- [ ] Save Island Plots into profile / database
+
 
 ## Save The world (wont use ngl)?
 - Save the World (Works decently well, very buggy quest progression and not made for public use)
+- Read stw todo here [TODO.md](./TODO.md)
+
