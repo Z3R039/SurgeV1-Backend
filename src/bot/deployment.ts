@@ -16,8 +16,15 @@ const loadCommandsFromDirectory = async (dir: string): Promise<any[]> => {
       commandDataPromises.push(
         (async () => {
           try {
-            const CommandModule = await import(fullPath);
+            // Use dynamic import with a timeout to avoid circular dependency issues
+            const CommandModule = await Promise.resolve().then(() => import(fullPath));
             const CommandClass = CommandModule.default;
+            
+            if (!CommandClass) {
+              logger.error(`Command ${file} has no default export`);
+              return undefined;
+            }
+            
             const commandInstance = new CommandClass(null);
             
             // Handle both Command and BaseCommand implementations
@@ -34,6 +41,7 @@ const loadCommandsFromDirectory = async (dir: string): Promise<any[]> => {
               name,
               description,
               options,
+              filePath: fullPath, // Store file path for debugging
             };
           } catch (error) {
             logger.error(`Error loading command ${file}: ${error}`);
@@ -51,11 +59,34 @@ const loadCommandsFromDirectory = async (dir: string): Promise<any[]> => {
 const main = async () => {
   try {
     const commandsDir = join(__dirname, "commands");
-    const filteredCommandData = await loadCommandsFromDirectory(commandsDir);
+    const allCommandData = await loadCommandsFromDirectory(commandsDir);
+    
+    // Check for duplicate command names
+    const commandNames = new Map<string, string>();
+    const filteredCommandData = [];
+    
+    for (const cmd of allCommandData) {
+      if (!cmd) continue;
+      
+      if (commandNames.has(cmd.name)) {
+        logger.error(`Duplicate command name detected: ${cmd.name}`);
+        logger.error(`  First defined in: ${commandNames.get(cmd.name)}`);
+        logger.error(`  Duplicate found in: ${cmd.filePath}`);
+        continue; // Skip duplicate commands
+      }
+      
+      // Store command name and its file path
+      commandNames.set(cmd.name, cmd.filePath);
+      
+      // Remove filePath before sending to Discord API
+      const { filePath, ...cmdData } = cmd;
+      filteredCommandData.push(cmdData);
+    }
 
     const rest = new REST({ version: "10" }).setToken(config.bot_token);
 
     logger.info("Started refreshing application (/) commands.");
+    logger.info(`Registering ${filteredCommandData.length} commands`);
 
     const currentUser = (await rest.get(Routes.user())) as APIUser;
     const endpoint = Routes.applicationGuildCommands(currentUser.id, config.guild_id);
@@ -66,5 +97,6 @@ const main = async () => {
     logger.error(`Error refreshing commands: ${error}`);
   }
 };
+
 
 main();

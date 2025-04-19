@@ -20,10 +20,10 @@ import {
 import PermissionInfo from "../../../utilities/permissions/permissioninfo";
 import ProfileHelper from "../../../utilities/ProfileHelper";
 
-export default class RegisterCommand extends Command {
+export default class UserRegisterCommand extends Command {
   constructor(client: Client) {
     super(client, {
-      name: "register",
+      name: "user-register",
       description: "Register a new account.",
       options: [
         {
