@@ -30,7 +30,7 @@ export default class BanCommand extends Command {
   constructor(client: Client) {
     super(client, {
       name: "ban",
-      description: "Bans a user.",
+      description: "Bans a user from playing.",
       options: [
         {
           name: "user",
