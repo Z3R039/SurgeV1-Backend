@@ -2,8 +2,6 @@
 **Universal Fortnite Backend written in TypeScript using Postgres powered by TypeORM**
 
 ## NOTE
-
-This was made for a private project, it is not made for public use and is very **buggy and unfinished**.
 <br />
 Version's 12.41 onwards are not supported and your character will be invisible.
 
@@ -31,6 +29,7 @@ Read todo here [TODO.md](./TODO.md)
 
 ## Planned Features
 
+- [ ] optimizations
 - [x] Vbucks on kill/win
 - [x] Easy setup
 - [x] Auto shop
@@ -47,7 +46,7 @@ Read todo here [TODO.md](./TODO.md)
 - [x] Purchasing from item shop
 - [x] HWID Bans
 - [x] Refunding
-- [ ] Save the World
+- [ ] Save the World (kind of working)
 - [x] Arena
 - [x] ClientSettings
 - [x] GameSessions (works fine)
