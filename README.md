@@ -2,6 +2,7 @@
 ## MAJOR TODO
 - [x] backend startup without crashes
 - [x] Fix bot commands not starting up (refreshing commands & loading commands)
+- [ ] Fix add vbucks command causing a full on server crash (Error executing command: vbucks - TypeError: undefined is not an object (evaluating 'profile.stats.attributes.gifts.push'))
 - [ ] Fix duplicate commands error
 - [ ] Fix postgress "unknown table" (idk if its my brain not braining or the backend doing something wrong tbh)
 ![Banner](https://i.ibb.co/8Dd4sgww/Screenshot-2025-04-19-184354.png)
