@@ -6,7 +6,7 @@ import {
   type CacheType,
 } from "discord.js";
 import ProfileHelper from "../../utilities/profiles";
-import { accountService, profilesService, userService } from "../..";
+import { accountService, profilesService, userService } from "../../index";
 import BaseCommand from "../base/Base";
 import { User } from "../../tables/user";
 

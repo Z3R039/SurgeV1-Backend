@@ -13,7 +13,7 @@ const client = new ExtendedClient({
 });
 
 await loadCommands(client);
-loadEvents(client);
+await loadEvents(client);
 
 client.once("ready", () => {
   logger.startup(`Logged in as ${client.user?.tag}`);

@@ -7,7 +7,7 @@ import {
   type ColorResolvable,
 } from "discord.js";
 import BaseCommand from "../base/Base";
-import { accountService, profilesService, userService } from "../..";
+import { accountService, profilesService, userService } from "../../index";
 import path from "node:path";
 import { Account } from "../../tables/account";
 import ProfileHelper from "../../utilities/profiles";
