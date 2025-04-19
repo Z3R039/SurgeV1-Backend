@@ -1,12 +1,9 @@
-[![Maintained with Bun](https://img.shields.io/badge/maintained%20with-bun-ac98ff.svg?style=for-the-badge&logo=bun)](https://bun.sh/)![Size](https://img.shields.io/github/repo-size/chloefrfr/ChronosPrivate?label=Size&style=for-the-badge)
-
-![Banner](https://cdn2.unrealengine.com/13br-galaxycup-newsheader-1900x600-1900x600-482668392.jpg)
 
 **Universal Fortnite Backend written in TypeScript using Postgres powered by TypeORM**
 
 ## NOTE
 
-This was made for a private project, it is not made for public use and is very buggy and unfinished.
+This was made for a private project, it is not made for public use and is very **buggy and unfinished**.
 <br />
 Version's 12.41 onwards are not supported and your character will be invisible.
 
@@ -20,7 +17,7 @@ Read todo here [TODO.md](./TODO.md)
 - [Git](https://git-scm.com/downloads)
 - [Postgres](https://www.postgresql.org/download/)
 
-## What's Next?
+## Save The world (wont use ngl)?
 
 - Save the World (Works decently well, very buggy quest progression and not made for public use)
 
