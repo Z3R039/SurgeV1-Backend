@@ -75,6 +75,17 @@ export default class VbucksCommand extends BaseCommand {
       return await interaction.editReply({ embeds: [embed] });
     }
 
+    // Initialize currency if it doesn't exist
+    if (!profile.items["Currency:MtxPurchased"]) {
+      profile.items["Currency:MtxPurchased"] = {
+        templateId: "Currency:MtxPurchased",
+        attributes: {
+          platform: "Epic"
+        },
+        quantity: 0
+      };
+    }
+
     profile.items["Currency:MtxPurchased"].quantity += vbucksAmount;
 
     lootList.push({
