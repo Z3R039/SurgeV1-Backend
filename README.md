@@ -1,6 +1,7 @@
 
 ## MAJOR TODO
 - [x] backend startup without crashes
+![Banner](https://i.ibb.co/0kvJPLr/Screenshot-2025-04-19-144220.png)
 - [ ] Fix bot commands not starting up (refreshing commands & loading commands)
 - [ ] Fix postgress "unknown table" (idk if its my brain not braining or the backend doing something wrong tbh)
 
