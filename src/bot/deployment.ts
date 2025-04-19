@@ -19,10 +19,21 @@ const loadCommandsFromDirectory = async (dir: string): Promise<any[]> => {
             const CommandModule = await import(fullPath);
             const CommandClass = CommandModule.default;
             const commandInstance = new CommandClass(null);
+            
+            // Handle both Command and BaseCommand implementations
+            const name = commandInstance.name || (commandInstance.data && commandInstance.data.name);
+            const description = commandInstance.description || (commandInstance.data && commandInstance.data.description);
+            const options = commandInstance.options || (commandInstance.data && commandInstance.data.options) || [];
+            
+            if (!name || !description) {
+              logger.error(`Command ${file} is missing required name or description fields`);
+              return undefined;
+            }
+            
             return {
-              name: commandInstance.name,
-              description: commandInstance.description,
-              options: commandInstance.options,
+              name,
+              description,
+              options,
             };
           } catch (error) {
             logger.error(`Error loading command ${file}: ${error}`);

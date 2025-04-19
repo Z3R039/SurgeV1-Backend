@@ -15,10 +15,23 @@ const loadCommandsFromDirectory = async (dir: string, client: ExtendedClient): P
       if (fs.statSync(fullPath).isDirectory()) {
         await loadCommandsFromDirectory(fullPath, client);
       } else if (file.endsWith(".ts") || file.endsWith(".js")) {
-        const { default: CommandClass } = await import(fullPath);
-        const commandInstance: Command = new CommandClass(client);
-
-        client.commands.set(commandInstance.name, commandInstance);
+        try {
+          const CommandModule = await import(fullPath);
+          const CommandClass = CommandModule.default;
+          const commandInstance = new CommandClass(client);
+          
+          // Handle both Command and BaseCommand implementations
+          const commandName = commandInstance.name || (commandInstance.data && commandInstance.data.name);
+          
+          if (!commandName) {
+            logger.error(`Command in ${file} is missing a name property`);
+            continue;
+          }
+          
+          client.commands.set(commandName, commandInstance);
+        } catch (importError) {
+          logger.error(`Error importing command ${file}: ${importError}`);
+        }
       }
     }
   } catch (error) {
