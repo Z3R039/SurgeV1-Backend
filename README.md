@@ -1,11 +1,5 @@
 
-## MAJOR TODO
-- [x] backend startup without crashes
-- [x] Fix bot commands not starting up (refreshing commands & loading commands)
-- [x] Fix add vbucks command causing a full on server crash (Error executing command: vbucks - TypeError: undefined is not an object (evaluating 'profile.stats.attributes.gifts.push'))
-- [ ] Fix duplicate commands error
-- [ ] Fix postgress "unknown table" (idk if its my brain not braining or the backend doing something wrong tbh)
-![Banner](https://i.ibb.co/8Dd4sgww/Screenshot-2025-04-19-184354.png)
+###SurgeMP Backend
 
 
 **Universal Fortnite Backend written in TypeScript using Postgres powered by TypeORM**
@@ -27,6 +21,16 @@ Version's 12.41 onwards are not supported and your character will be invisible.
 - **Season 8:** Daily & Week 1 Quests
 - **Season 9:** Daily & Week 1 Quests
 - **Season 13:** Daily & Week 1 Quests
+
+## MAJOR TODO
+- [x] backend startup without crashes
+- [x] Fix bot commands not starting up (refreshing commands & loading commands)
+- [x] Fix add vbucks command causing a full on server crash (Error executing command: vbucks - TypeError: undefined is not an object (evaluating 'profile.stats.attributes.gifts.push'))
+- [ ] Fix item shop & battlepass on other seasons like 8.51 (unsure if others dont work or not will test soon)
+- [ ] Random api stalls or bugs appearing after adding new features (unsure ngl)
+- [ ] Fix duplicate commands error
+- [ ] Fix postgress "unknown table" (idk if its my brain not braining or the backend doing something wrong tbh)
+![Banner](https://i.ibb.co/8Dd4sgww/Screenshot-2025-04-19-184354.png)
 
 ## TODO Features
 
