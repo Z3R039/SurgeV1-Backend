@@ -28,7 +28,7 @@ Version's 12.41 onwards are not supported and your character will be invisible.
 - **Season 9:** Daily & Week 1 Quests
 - **Season 13:** Daily & Week 1 Quests
 
-## Planned Features
+## TODO Features
 
 - [ ] optimizations
 - [x] Vbucks on kill/win
