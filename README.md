@@ -15,13 +15,10 @@ Version's 12.41 onwards are not supported and your character will be invisible.
 Read todo here [TODO.md](./TODO.md)
 
 ## Requirements
-
 - [Bun](https://bun.sh)
 - [Git](https://git-scm.com/downloads)
 - [Postgres](https://www.postgresql.org/download/)
 
-## Save The world (wont use ngl)?
-- Save the World (Works decently well, very buggy quest progression and not made for public use)
 
 # Available Quests
 
@@ -58,3 +55,6 @@ Read todo here [TODO.md](./TODO.md)
 - [x] Authentication using Permissions (eg... `fortnite:profile:abcd1234:commands`)
 - [x] Leaderboards (Stats)
 - [x] Launcher stuff (node for public use, you can try to use it)
+
+## Save The world (wont use ngl)?
+- Save the World (Works decently well, very buggy quest progression and not made for public use)
