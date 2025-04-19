@@ -95,7 +95,12 @@ export default class VbucksCommand extends BaseCommand {
       quantity: vbucksAmount,
     });
 
-    profile.stats.attributes.gifts!.push({
+    // Initialize gifts array if it doesn't exist
+    if (!profile.stats.attributes.gifts) {
+      profile.stats.attributes.gifts = [];
+    }
+
+    profile.stats.attributes.gifts.push({
       templateId: "GiftBox:GB_MakeGood",
       fromAccountId: uuid(),
       templateIdHashed: uuid(),

@@ -20,6 +20,8 @@ const configSchema = z.object({
   discord_client_secret: z.string(),
   tcp: z.boolean(),
   launcher_ver: z.string(),
+  enableVersionRestriction: z.boolean().default(false),
+  versionJoinable: z.number().default(2),
 });
 
 export default class Config {
@@ -41,6 +43,8 @@ export default class Config {
       discord_client_secret: Bun.env.discord_client_secret,
       tcp: Bun.env.tcp === "true" || Bun.env.tcp === undefined ? true : false,
       launcher_ver: Bun.env.launcher_ver,
+      enableVersionRestriction: Bun.env.enableVersionRestriction === "true" ? true : false,
+      versionJoinable: parseInt(Bun.env.versionJoinable as string, 10) || 2,
     });
 
     // Check if parsing was successful

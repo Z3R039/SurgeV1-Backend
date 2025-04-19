@@ -9,6 +9,14 @@ import uaparser from "../utilities/uaparser";
 import { sign } from "hono/jwt";
 import internal from "node:stream";
 
+// Version restriction configuration from environment settings
+const versionRestriction = {
+  // Enable/disable version restriction
+  bEnableOnlyOneVersionJoinable: config.enableVersionRestriction,
+  // The version that is allowed to join (can be a specific version like 9.10)
+  bVersionJoinable: config.versionJoinable
+};
+
 export function validateBase64(input: string) {
   return /^[A-Za-z0-9+/]*={0,2}$/.test(input);
 }
@@ -61,6 +69,19 @@ export default function () {
     const blacklistedSeasons = new Set([1, 2, 3, 4, 5, 6, 7]);
     let deviceId = null;
     const isSeasonBlacklisted = blacklistedSeasons.has(uahelper.season);
+    
+    // Check if version restriction is enabled and if the client version is allowed
+    if (versionRestriction.bEnableOnlyOneVersionJoinable && uahelper.season !== versionRestriction.bVersionJoinable) {
+      return c.json(
+        errors.createError(
+          403, 
+          c.req.url, 
+          `This server only allows version ${versionRestriction.bVersionJoinable} to join. Your version: ${uahelper.season}`, 
+          timestamp
+        ), 
+        403
+      );
+    }
 
     if (!isSeasonBlacklisted) {
       deviceId = c.req.header("X-Epic-Device-ID") || c.req.header("HWID");
