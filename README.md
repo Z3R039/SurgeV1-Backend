@@ -11,7 +11,6 @@
 Version's 12.41 onwards are not supported and your character will be invisible.
 
 ## TODO
-
 Read todo here [TODO.md](./TODO.md)
 
 ## Requirements
@@ -21,7 +20,6 @@ Read todo here [TODO.md](./TODO.md)
 - [Postgres](https://www.postgresql.org/download/)
 
 ## Save The world (wont use ngl)?
-
 - Save the World (Works decently well, very buggy quest progression and not made for public use)
 
 # Available Quests
