@@ -1,8 +1,3 @@
-# Battle Royale
-
-- [x] Quest Claiming
-- [x] Rewrite Session endpoints for GS
-- Add All Quests from S6 - S11
 
 # Creative
 
