@@ -46,7 +46,7 @@ Read todo here [TODO.md](./TODO.md)
 - [x] Purchasing from item shop
 - [x] HWID Bans
 - [x] Refunding
-- [ ] Save the World (kind of working)
+- [x] Save the World (kind of working but wont need ngl)
 - [x] Arena
 - [x] ClientSettings
 - [x] GameSessions (works fine)
