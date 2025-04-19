@@ -27,14 +27,13 @@ Version's 12.41 onwards are not supported and your character will be invisible.
 - [x] Fix bot commands not starting up (refreshing commands & loading commands)
 - [x] Fix add vbucks command causing a full on server crash (Error executing command: vbucks - TypeError: undefined is not an object (evaluating 'profile.stats.attributes.gifts.push'))
 - [ ] Fix item shop & battlepass on other seasons like 8.51 (unsure if others dont work or not will test soon)
-- [ ] Random api stalls or bugs appearing after adding new features (unsure ngl)
+- [ ] Random api stalls or bugs appearing after adding new features (unsure ngl because they pop out of nowhere **T-T**)
 - [ ] Fix duplicate commands error
 - [ ] Fix postgress "unknown table" (idk if its my brain not braining or the backend doing something wrong tbh)
 ![Banner](https://i.ibb.co/8Dd4sgww/Screenshot-2025-04-19-184354.png)
 
 ## TODO Features
 
-- [ ] optimizations
 - [x] Vbucks on kill/win
 - [x] Easy setup
 - [x] Auto shop
@@ -61,8 +60,18 @@ Version's 12.41 onwards are not supported and your character will be invisible.
 - [x] Launcher stuff (node for public use, you can try to use it)
 - [x] Quest Claiming
 - [x] Rewrite Session endpoints for GS
-- [ ] Add All Quests from S6 - S11
-- [ ] Save Island Plots into profile / database
+- [ ] Tournaments & Reward system
+- [ ] Ingame Reporting & Feedback System
+- [ ] Support a creator code
+- [ ] Add All Quests & Battlepasses from S3 - S14
+- [ ] Creative Save Island Plots into profile / database
+- [ ] Host user made creative islands
+- [ ] Optimizations (needs alot ngl)
+- [ ] Region Matchmaker
+- [ ] Add support for seasons above 12.41
+- [ ] Moderator Access only mode (and supporters later on)
+- [ ] Voice chat
+- [ ] Client sided events
 
 
 ## Save The world (wont use ngl)?
