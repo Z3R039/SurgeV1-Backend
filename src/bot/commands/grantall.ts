@@ -7,13 +7,16 @@ import {
   type ColorResolvable,
 } from "discord.js";
 import BaseCommand from "../base/Base";
-import { accountService, profilesService, userService } from "../../index";
 import path from "node:path";
-import { Account } from "../../tables/account";
-import ProfileHelper from "../../utilities/profiles";
 import { User } from "../../tables/user";
-import { SendMessageToId } from "../../sockets/xmpp/utilities/SendMessageToId";
+import ProfileHelper from "../../utilities/profiles";
 import RefreshAccount from "../../utilities/refresh";
+
+// Import services directly from their source files to avoid circular dependencies
+import UserService from "../../wrappers/database/UserService";
+import AccountService from "../../wrappers/database/AccountService";
+import ProfilesService from "../../wrappers/database/ProfilesService";
+import { db } from "../../index";
 
 export interface Gifts {
   templateId: string;
@@ -57,6 +60,7 @@ export default class GrantAllCommand extends BaseCommand {
 
     await interaction.deferReply({ ephemeral: true });
     const user_data = await interaction.options.get("user", true);
+    const userService = new UserService(db);
     const user = await userService.findUserByDiscordId(user_data.user?.id as string);
 
     if (!user) {
@@ -68,6 +72,7 @@ export default class GrantAllCommand extends BaseCommand {
       );
     }
 
+    const accountService = new AccountService(db);
     const account = await accountService.findUserByDiscordId(user.discordId);
     if (!account) {
       return await this.sendEmbed(
@@ -105,6 +110,7 @@ export default class GrantAllCommand extends BaseCommand {
       const allItems = require(path.join(__dirname, "..", "..", "memory", "all.json"));
       athena.items = { ...athena.items, ...allItems };
 
+      const profilesService = new ProfilesService(db);
       await profilesService.update(user.accountId, "athena", athena);
 
       await User.createQueryBuilder()
