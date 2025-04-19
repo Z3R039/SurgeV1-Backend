@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_HuskExtermination_Constructor",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Husk Extermination (Constructor)",
+      "Description": "This is a Daily Quest. You can have up to three Daily Quests at a time. You can swap out one Daily Quest per day using the Replace Quest button.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "kill_husk_constructor_v2",
+          "ObjectiveState": "kill_husk_constructor",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Kill 300 Husks in successful missions as a Constructor",
+          "HudShortDescription": "Husks slain as a Constructor",
+          "Count": 300,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

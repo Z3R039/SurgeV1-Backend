@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_DefenderTraining_1",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Defender Training - Stage 1",
+      "Description": "Visit the Squads tab to level up a Defender of your choice.\r\n\r\nTo level up a Defender:\r\nSelect Squads\r\nSelect Defender Squads\r\nSelect Go to All Defenders\r\nSelect a Defender\r\nSelect Upgrade/Inspect\r\nSelect Level Up",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "upgrade_any_defender",
+          "ObjectiveState": "upgrade_any_defender",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Level Up a Defender",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

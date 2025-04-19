@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_CollectionBook_1",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Collections",
+      "Description": "Commander, you may want to consider retiring some of your heroes, personnel, and schematics to make room for new recruits and weapon innovations.\r\n\r\nSlotting people and schematics will permanently remove them from action. However, once you complete a collection category, you will receive new rewards!\r\n\r\nTo place an item in your Collections:\r\nSelect Armory\r\nSelect Collection Book\r\nNavigate to the appropriate collection slot\r\nSelect the item to place in the slot",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "collectionbook_levelup",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::HasLeveledUpCollectionBook",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Level Up Your Collection Book",
+          "HudShortDescription": "",
+          "Count": 2,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

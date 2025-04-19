@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_LaunchRocket_D5",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Van or Astro-van?",
+      "Description": "We've got blue skies and a rocket that's almost ready to fly. Get out there and launch your next Storm Shield.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_launchrocket_1",
+          "ObjectiveState": "complete_launchrocket_1",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete a Launch the Rocket mission in a [UIRating]+ zone",
+          "HudShortDescription": "Launch the Rocket mission completed",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

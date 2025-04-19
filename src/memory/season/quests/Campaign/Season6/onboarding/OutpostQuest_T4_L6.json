@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "OutpostQuest_T4_L6",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Twine Peaks Storm Shield Defense 6",
+      "Description": "Install your 5th Shield Amplifier and defend your Storm Shield.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_outpost_4_6",
+          "ObjectiveState": "complete_outpost_4_6",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete Twine Peaks Storm Shield Defense 6",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

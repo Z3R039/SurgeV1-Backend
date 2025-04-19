@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_Mission_BuildRadar",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Build the Radar Tower",
+      "Description": "This is a Daily Quest. You can have up to three Daily Quests at a time. You can swap out one Daily Quest per day using the Replace Quest button.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_buildradar_1_diff2",
+          "ObjectiveState": "complete_buildradar_1_diff2",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Build 4 Radar Towers in successful missions",
+          "HudShortDescription": "Radar Towers built",
+          "Count": 4,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

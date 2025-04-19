@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_Filler_1_D3",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Rescue the Survivors",
+      "Description": "Survivors are in danger. Complete a Rescue the Survivors mission.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_evacuate_1_diff3",
+          "ObjectiveState": "complete_evacuate_1_diff3",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete a Rescue the Survivors mission in a [UIRating]+ zone",
+          "HudShortDescription": "Rescue the Survivors mission completed",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

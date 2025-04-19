@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_HuskExtermination_Trap",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Husk Extermination (Trap)",
+      "Description": "This is a Daily Quest. You can have up to three Daily Quests at a time. You can swap out one Daily Quest per day using the Replace Quest button.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "kill_husk_trap",
+          "ObjectiveState": "kill_husk_trap",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Kill 150 Husks with traps in successful missions",
+          "HudShortDescription": "Husks slain with traps",
+          "Count": 150,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

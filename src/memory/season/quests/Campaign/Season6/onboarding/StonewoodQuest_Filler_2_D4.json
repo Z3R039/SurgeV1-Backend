@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_Filler_2_D4",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Medic!",
+      "Description": "Stock up on healing! Craft 5 Healing Pads, and complete 2 missions.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "craft_health_station",
+          "ObjectiveState": "craft_health_station",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Craft Healing Pads",
+          "HudShortDescription": "Healing Pads crafted",
+          "Count": 5,
+          "Stage": -1,
+          "bHidden": false
+        },
+        {
+          "BackendName": "complete_pve01_diff3_v2",
+          "ObjectiveState": "complete_pve01_diff3",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 2 missions in a [UIRating]+ zone",
+          "HudShortDescription": "",
+          "Count": 2,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_Mission_Specialist_CannyValley",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Mission Specialist (Canny Valley)",
+      "Description": "This is a Daily Quest. You can have up to three Daily Quests at a time. You can swap out one Daily Quest per day using the Replace Quest button.\r\n\r\nThis Quest must be completed in Canny Valley.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_pve03",
+          "ObjectiveState": "complete_pve03",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 3 missions in Canny Valley",
+          "HudShortDescription": "Canny Valley missions completed",
+          "Count": 3,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Achievement_DestroyGnomes",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "(Hidden) Go Gnome!",
+      "Description": "Quest to track when players destroy 100 garden gnomes. Once they do, fire off a console achievement.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "destroy_gnome",
+          "ObjectiveState": "destroy_gnome",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "(Hidden) Destroy 100 Garden Gnomes in successful missions",
+          "HudShortDescription": "",
+          "Count": 100,
+          "Stage": -1,
+          "bHidden": true
+        }
+      ]
+    }
+  }
+]

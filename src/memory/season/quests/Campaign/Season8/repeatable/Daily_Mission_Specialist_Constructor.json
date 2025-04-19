@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_Mission_Specialist_Constructor",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Mission Specialist (Constructor)",
+      "Description": "This is a Daily Quest. You can have up to three Daily Quests at a time. You can swap out one Daily Quest per day using the Replace Quest button.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_constructor",
+          "ObjectiveState": "complete_constructor",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 3 missions as a Constructor",
+          "HudShortDescription": "Mission completed as a Constructor",
+          "Count": 3,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

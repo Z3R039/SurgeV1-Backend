@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_ALittleVanThatCould",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "A Little Van That Could!",
+      "Description": "Complete 3 Ride the Lightning missions.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_launchballoon",
+          "ObjectiveState": "complete_launchballoon",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 3 Ride the Lightning missions",
+          "HudShortDescription": "Ride the Lightning missions completed",
+          "Count": 3,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

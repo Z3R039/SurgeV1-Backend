@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "HomebaseQuest_WeakPointVision",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Weakpoint Vision",
+      "Description": "When harvesting, a \"Weak Point\" will display as a flash of blue light. Swing for the light and reap the rewards!\r\n\r\nTo unlock Weakpoint Vision:\r\nSelect the Skills tab\r\nSelect Skill Tree: Tier 1\r\nSelect the Weakpoint Vision skill node\r\nSelect Purchase to unlock the skill node",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "unlock_skill_tree_weakpointvision",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Acquire",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "HomebaseNode:t1_main_ba01a2361",
+          "Description": "Unlock Weakpoint Vision Skill Tree Node",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

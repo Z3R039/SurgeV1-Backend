@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_UpgradeAlteration",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Perk Upgrade",
+      "Description": "Visit the Armory tab to upgrade a Perk on a schematic of your choice.\r\n\r\nTo upgrade a Perk:\r\nSelect Armory\r\nSelect Schematics\r\nSelect a Schematic\r\nSelect Upgrade/Inspect\r\nSelect Upgrade\r\nSelect Modify Perks\r\nSelect a Perk to Upgrade\r\nSelect a Perk under Upgrades",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "alteration_upgrade",
+          "ObjectiveState": "alteration_upgrade",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Upgrade a Perk",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Achievement_BuildStructures",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "(Hidden) Talented Builder",
+      "Description": "Quest to track when players build 500000 structures. Once they do, fire off a console achievement.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "build_any_structure",
+          "ObjectiveState": "build_any_structure",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "(Hidden) Build 500000 Structures in successful missions",
+          "HudShortDescription": "",
+          "Count": 500000,
+          "Stage": -1,
+          "bHidden": true
+        }
+      ]
+    }
+  }
+]

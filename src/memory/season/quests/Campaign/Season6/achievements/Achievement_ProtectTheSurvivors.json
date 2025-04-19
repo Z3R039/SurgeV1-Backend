@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Achievement_ProtectTheSurvivors",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "(Hidden) Take Out Those Husks",
+      "Description": "Quest to track when players protect the survivors during the onboarding mission. Once they do, fire off a console achievement.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "custom_protectthesurvivors",
+          "ObjectiveState": "custom_protectthesurvivors",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "(Hidden) Protect the survivors",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": true
+        }
+      ]
+    }
+  }
+]

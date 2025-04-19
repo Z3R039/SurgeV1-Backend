@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "CannyValleyQuest_Outpost_L2",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Canny Valley Defense 2",
+      "Description": "Get amped for your Storm Shield expansion!",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "questcomplete_outpostquest_t3_l2",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::HasCompletedQuest",
+          "ItemReference": "/Game/Quests/Outpost/OutpostQuest_T3_L2.OutpostQuest_T3_L2",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete Canny Valley Storm Shield Defense 2",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

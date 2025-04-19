@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "OutpostQuest_T4_L2",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Twine Peaks Storm Shield Defense 2",
+      "Description": "Expand and defend your Storm Shield!",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_outpost_4_2",
+          "ObjectiveState": "complete_outpost_4_2",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete Twine Peaks Storm Shield Defense 2",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

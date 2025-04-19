@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_PartyOf50",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Party of 25",
+      "Description": "This is a Daily Quest. You can have up to three Daily Quests at a time. You can swap out one Daily Quest per day using the Replace Quest button.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "questcollect_survivoritemdata_v2",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Collect",
+          "ItemReference": "/Game/Items/ResourcePickups/SurvivorItemData.SurvivorItemData",
+          "ItemTemplateIdOverride": "",
+          "Description": "Save 25 Survivors in successful missions",
+          "HudShortDescription": "Survivors saved",
+          "Count": 25,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

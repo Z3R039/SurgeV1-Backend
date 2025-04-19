@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_MissionAccomplished_3",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Mission Accomplished! - Stage 3",
+      "Description": "Your mission if you choose to accept it is to complete as many missions as you can. This quest journal will self destruct in...",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_primary",
+          "ObjectiveState": "complete_primary",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 4 missions",
+          "HudShortDescription": "Missions completed",
+          "Count": 4,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

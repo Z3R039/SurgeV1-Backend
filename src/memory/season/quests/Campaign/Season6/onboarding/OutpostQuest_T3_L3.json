@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "OutpostQuest_T3_L3",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Canny Valley Storm Shield Defense 3",
+      "Description": "Install your 2nd Shield Amplifier and defend your Storm Shield.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_outpost_3_3",
+          "ObjectiveState": "complete_outpost_3_3",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete Canny Valley Storm Shield Defense 3",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

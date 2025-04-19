@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Achievement_PlayWithOthers",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "(Hidden) Plays Well with Others",
+      "Description": "Quest to track when players complete 1000 Play With Others missions. Once they do, fire off a console achievement.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "quick_complete",
+          "ObjectiveState": "quick_complete",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "(Hidden) Complete 1000 Play With Others missions",
+          "HudShortDescription": "",
+          "Count": 1000,
+          "Stage": -1,
+          "bHidden": true
+        }
+      ]
+    }
+  }
+]

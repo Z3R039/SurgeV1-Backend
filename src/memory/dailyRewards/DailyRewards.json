@@ -1,0 +1,1851 @@
+[
+  {
+    "itemType": "AccountResource:HeroXP",
+    "quantity": 300
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 5
+  },
+  {
+    "itemType": "AccountResource:Voucher_Custom_Firecracker_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Defender_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_VR",
+    "quantity": 1
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 50
+  },
+  {
+    "itemType": "CardPack:CardPack_Manager_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "CardPack:CardPack_Worker_VR",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "ConversionControl:CCK_Hero_Core_Consumable_SR",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 300
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "ConversionControl:CCK_Manager_Core_Consumable_VR",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 300
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "ConversionControl:CCK_Worker_Core_Consumable_SR",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "ConversionControl:CCK_Worker_Core_Consumable_SR",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 300
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "ConversionControl:CCK_Hero_Core_Consumable_SR",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 800
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 300
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 300
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 300
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 800
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 300
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 300
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 300
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Hero_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 10
+  },
+  {
+    "itemType": "CardPack:CardPack_Ranged_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "ConsumableAccountItem:SmallXpBoost_Gift",
+    "quantity": 3
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Trap_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T02",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 150
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T01",
+    "quantity": 15
+  },
+  {
+    "itemType": "AccountResource:PeopleResource",
+    "quantity": 20
+  },
+  {
+    "itemType": "AccountResource:Voucher_BasicPack",
+    "quantity": 2
+  },
+  {
+    "itemType": "CardPack:CardPack_Melee_R",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "AccountResource:Reagent_C_T03",
+    "quantity": 5
+  },
+  {
+    "itemType": "MtxCurrency:MtxGiveaway",
+    "quantity": 1000
+  },
+
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Bronze",
+    "quantity": 1
+  },
+  {
+    "itemType": "CardPack:CardPack_Event_Founders",
+    "quantity": 1
+  }
+]

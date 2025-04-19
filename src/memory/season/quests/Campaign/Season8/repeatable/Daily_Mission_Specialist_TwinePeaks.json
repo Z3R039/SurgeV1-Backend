@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_Mission_Specialist_TwinePeaks",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Mission Specialist (Twine Peaks)",
+      "Description": "This is a Daily Quest. You can have up to three Daily Quests at a time. You can swap out one Daily Quest per day using the Replace Quest button.\r\n\r\nThis Quest must be completed in Twine Peaks.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_pve04",
+          "ObjectiveState": "complete_pve04",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 3 missions in Twine Peaks",
+          "HudShortDescription": "Twine Peaks missions completed",
+          "Count": 3,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

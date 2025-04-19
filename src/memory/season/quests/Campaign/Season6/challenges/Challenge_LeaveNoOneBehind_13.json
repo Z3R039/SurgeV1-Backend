@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_LeaveNoOneBehind_13",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Leave No One Behind - Stage 13",
+      "Description": "Survivors are in need of rescue, Commander. They're counting on you! Save as many as you can.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "questcollect_survivoritemdata",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Collect",
+          "ItemReference": "/Game/Items/ResourcePickups/SurvivorItemData.SurvivorItemData",
+          "ItemTemplateIdOverride": "",
+          "Description": "Save 85 Survivors in successful missions",
+          "HudShortDescription": "Survivors saved",
+          "Count": 85,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

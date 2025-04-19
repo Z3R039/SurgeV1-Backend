@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_Side_1_D4",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Group Effort",
+      "Description": "It's time to join up with other Commanders and complete a mission in Stonewood!\r\n\r\nThis Quest must be completed in Stonewood.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "quick_complete_pve01",
+          "ObjectiveState": "quick_complete_pve01",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 2 Play with Others missions in Stonewood",
+          "HudShortDescription": "Play with Others missions completed",
+          "Count": 2,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_Filler_2_D5",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Countdown",
+      "Description": "Smashers and Takers are on the rampage. Defeat those Mist Monsters!",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "kill_husk_taker_1_diff5",
+          "ObjectiveState": "kill_mist_monster_1_diff5",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Kill 5 Mist Monsters in successful missions in a [UIRating]+ zone",
+          "HudShortDescription": "Mist Monsters slain",
+          "Count": 5,
+          "Stage": -1,
+          "bHidden": false
+        },
+        {
+          "BackendName": "complete_pve01_diff5",
+          "ObjectiveState": "complete_pve01_diff5",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 3 missions in a [UIRating]+ zone",
+          "HudShortDescription": "",
+          "Count": 3,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

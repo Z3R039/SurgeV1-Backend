@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_GateCrasher",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Storm Chaser",
+      "Description": "Complete 3 Fight the Storm missions.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_gate",
+          "ObjectiveState": "complete_gate",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 3 Fight the Storm missions",
+          "HudShortDescription": "Fight the Storm missions completed",
+          "Count": 3,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

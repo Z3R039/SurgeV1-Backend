@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Achievement_SaveSurvivors",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "(Hidden) Guardian Angel",
+      "Description": "Quest to track when players save 10000 survivors. Once they do, fire off a console achievement.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "questcollect_survivoritemdata",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Collect",
+          "ItemReference": "/Game/Items/ResourcePickups/SurvivorItemData.SurvivorItemData",
+          "ItemTemplateIdOverride": "",
+          "Description": "(Hidden) Save 10000 Survivors in successful missions",
+          "HudShortDescription": "",
+          "Count": 10000,
+          "Stage": -1,
+          "bHidden": true
+        }
+      ]
+    }
+  }
+]

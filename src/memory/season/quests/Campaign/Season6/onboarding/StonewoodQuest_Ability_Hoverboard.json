@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_Ability_Hoverboard",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Cruise Control",
+      "Description": "It's time to hover! Hold down the (build/combat) mode switch button to activate your Hoverboard.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "stonewoodquest_ability_hoverboard",
+          "ObjectiveState": "stonewoodquest_ability_hoverboard",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Ride your Hoverboard",
+          "HudShortDescription": "Hoverboard activated",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        },
+        {
+          "BackendName": "complete_pve01_diff4",
+          "ObjectiveState": "complete_pve01_diff4",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete a mission in a [UIRating]+ zone",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

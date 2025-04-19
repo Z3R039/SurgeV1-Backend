@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "OutpostQuest_T3_L9",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Canny Valley Storm Shield Defense 9",
+      "Description": "Recommended: 4 Players. Install your 7th Storm Shield Amplifier and defend your Storm Shield. ",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_outpost_3_9",
+          "ObjectiveState": "complete_outpost_3_9",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete Canny Valley Storm Shield Defense 9",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

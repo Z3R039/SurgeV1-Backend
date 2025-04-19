@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_ToxicTreasures_15",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Toxic Treasures - Stage 15",
+      "Description": "Mimics have infiltrated our treasure chests. Destroy those tricksters!",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_mimic",
+          "ObjectiveState": "complete_mimic",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Destroy 9 Mimics in successful missions",
+          "HudShortDescription": "Mimics destroyed",
+          "Count": 9,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "HeroQuest_ConstructorLeadership",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Constructor Leadership",
+      "Description": "A Constructor has been recruited! Test out your Constructor's superior building skills!\r\n\r\nTo unlock the ability to assign a Constructor to your Primary Hero Squad:\r\nSelect the Skills tab\r\nSelect Skill Tree: Tier 1\r\nSelect the Constructor Leadership skill node\r\nSelect Purchase to unlock the skill node",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "unlock_skill_tree_constructor_leadership",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::HasItem",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "HomebaseNode:t1_main_8d2c3c4d0",
+          "Description": "Unlock Constructor Leadership Skill Tree Node",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

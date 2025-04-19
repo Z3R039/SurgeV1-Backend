@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_HuskExtermination_AnyHero",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Husk Extermination (Any Hero)",
+      "Description": "This is a Daily Quest. You can have up to three Daily Quests at a time. You can swap out one Daily Quest per day using the Replace Quest button.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "kill_husk",
+          "ObjectiveState": "kill_husk",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Kill 500 Husks (Any Hero) in successful missions",
+          "HudShortDescription": "Husks slain",
+          "Count": 500,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

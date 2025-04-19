@@ -1,0 +1,53 @@
+{
+  "name": "lynt",
+  "module": "src/test.ts",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@types/bun": "^1.1.9",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "migration:create": "bunx typeorm migration:create ./migrations"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.654.0",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.5.5",
+    "@types/node-cache": "^4.2.5",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.11.10",
+    "@types/tiny-async-pool": "^2.0.3",
+    "@types/uuid": "^9.0.8",
+    "@types/xml-parser": "^1.2.33",
+    "@types/xmlbuilder": "^11.0.1",
+    "axios": "^1.7.7",
+    "chalk": "^5.3.0",
+    "compare-versions": "^6.1.1",
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "hono": "^4.6.2",
+    "jsonwebtoken": "^9.0.2",
+    "lru-cache": "^11.0.1",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.13.0",
+    "reflect-metadata": "^0.2.2",
+    "secure-ls": "^2.0.0",
+    "tiny-async-pool": "^2.1.0",
+    "tls": "^0.0.1",
+    "typeorm": "^0.3.20",
+    "uuid": "^10.0.0",
+    "xml-parser": "^1.2.1",
+    "xmlbuilder": "^15.1.1",
+    "zod": "^3.23.8"
+  }
+}

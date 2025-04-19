@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Achievement_LootTreasureChests",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "(Hidden) Expert Treasure Hunter",
+      "Description": "Quest to track when players loot 300 treasure chests. Once they do, fire off a console achievement.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "interact_treasurechest",
+          "ObjectiveState": "interact_treasurechest",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "(Hidden) Loot 300 Treasure Chests in successful missions",
+          "HudShortDescription": "",
+          "Count": 300,
+          "Stage": -1,
+          "bHidden": true
+        }
+      ]
+    }
+  }
+]

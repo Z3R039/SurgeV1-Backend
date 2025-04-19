@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Achievement_KillMistMonsters",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "(Hidden) Unspeakable Horrors",
+      "Description": "Quest to track when players kill 20000 mist monsters. Once they do, fire off a console achievement.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "kill_husk_smasher",
+          "ObjectiveState": "kill_mist_monster",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "(Hidden) Kill 20000 Mist Monsters in successful missions",
+          "HudShortDescription": "",
+          "Count": 20000,
+          "Stage": -1,
+          "bHidden": true
+        }
+      ]
+    }
+  }
+]

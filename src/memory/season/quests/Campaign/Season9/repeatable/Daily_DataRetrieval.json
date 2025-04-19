@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_DataRetrieval",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Data Retrieval",
+      "Description": "Complete 3 Retrieve the Data missions.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_retrievedata",
+          "ObjectiveState": "complete_retrievedata",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 3 Retrieve the Data missions",
+          "HudShortDescription": "Retrieve the Data missions completed",
+          "Count": 3,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

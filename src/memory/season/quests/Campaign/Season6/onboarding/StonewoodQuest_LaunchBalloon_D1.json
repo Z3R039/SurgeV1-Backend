@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_LaunchBalloon_D1",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Ride the Lightning",
+      "Description": "Meet freelance storm analyst / potentially dangerous weirdo, Lars.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_launchweatherballoon_1",
+          "ObjectiveState": "complete_launchweatherballoon_1",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete a Ride the Lightning mission",
+          "HudShortDescription": "Ride the Lightning mission completed",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

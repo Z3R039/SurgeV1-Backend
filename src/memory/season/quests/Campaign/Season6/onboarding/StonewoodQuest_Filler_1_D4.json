@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_Filler_1_D4",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Leave Only Footprints",
+      "Description": "The husks have done us wrong, let's go do 'em in. Clear husk encampments and search for more.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_encampment_1_diff4",
+          "ObjectiveState": "complete_encampment_1_diff4",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Clear 4 Husk Encampments in successful missions in a [UIRating]+ zone",
+          "HudShortDescription": "Husk Encampments cleared",
+          "Count": 4,
+          "Stage": -1,
+          "bHidden": false
+        },
+        {
+          "BackendName": "complete_pve01_diff4",
+          "ObjectiveState": "complete_pve01_diff4",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 2 missions in a [UIRating]+ zone",
+          "HudShortDescription": "",
+          "Count": 2,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

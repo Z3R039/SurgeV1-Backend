@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "TwinePeaksQuest_Outpost_L5",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Twine Peaks Defense 5",
+      "Description": "Install your 4th Shield Amplifier and defend your Storm Shield.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "questcomplete_outpostquest_t4_l5",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::HasCompletedQuest",
+          "ItemReference": "/Game/Quests/Outpost/OutpostQuest_T4_L5.OutpostQuest_T4_L5",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete Twine Peaks Storm Shield Defense 5",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

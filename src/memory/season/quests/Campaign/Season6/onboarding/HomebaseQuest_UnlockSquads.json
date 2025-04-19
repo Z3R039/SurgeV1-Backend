@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "HomebaseQuest_UnlockSquads",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Unlock Squads",
+      "Description": "Increase your Homebase Power by assigning Survivors to a Survivor Squad.\r\n\r\nTo unlock the ability to assign a Survivor to one of your Survivor Squads:\r\nSelect the Skills tab\r\nSelect Skill Tree: Tier 1\r\nSelect the Squads skill node\r\nSelect Purchase to unlock the skill node",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "unlock_skill_tree_squads",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Acquire",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "HomebaseNode:t1_main_7064c2440",
+          "Description": "Purchase the Unlock Squads Skill Tree Node",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

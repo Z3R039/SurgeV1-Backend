@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_EldritchAbominations_19",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Eldritch Abominations - Stage 19",
+      "Description": "Abominations plague the world. Blasters, Smashers, Flingers, and Takers! Team up with other Commanders and rid the world of these terrible Mist Monsters!",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "kill_husk_smasher",
+          "ObjectiveState": "kill_mist_monster",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Kill 95 Mist Monsters in successful missions",
+          "HudShortDescription": "Mist Monsters slain",
+          "Count": 95,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

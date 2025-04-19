@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_TreasuredFriends",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Treasured Friends",
+      "Description": "Go on a treasure hunt to stock up on weapons, ammo, traps, and crafting resources. Quest progress is shared with the group.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "interact_treasurechest_pve01_diff2",
+          "ObjectiveState": "interact_treasurechest_pve01_diff2",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Loot a Treasure Chest in a successful mission in a [UIRating]+ zone",
+          "HudShortDescription": "Treasure Chest looted",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

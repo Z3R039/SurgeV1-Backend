@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_DefenderTraining_2",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Defender Training - Stage 2",
+      "Description": "Visit the Squads tab to evolve a Defender of your choice. Evolved Defenders are more powerful.\r\n\r\nNote: You must unlock the required skill tree node before this Quest can be completed.\r\n\r\nTo evolve a Defender:\r\nSelect Squads\r\nSelect Defender Squads\r\nSelect Go to All Defenders\r\nSelect a Defender\r\nSelect Upgrade/Inspect\r\nSelect View Evolution\r\nSelect Evolve",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "convert_any_defender",
+          "ObjectiveState": "convert_any_defender",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Evolve a Defender by 1 Star",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

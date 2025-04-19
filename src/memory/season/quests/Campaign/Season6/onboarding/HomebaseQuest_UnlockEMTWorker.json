@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "HomebaseQuest_UnlockEMTWorker",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "(Hidden) EMT Worker (Unlock)",
+      "Description": "Quest to track unlock the EMT Worker skill tree node.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "unlock_skill_tree_emtworker",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Acquire",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "HomebaseNode:t1_main_7064c2440",
+          "Description": "Unlock EMT Worker Skill Tree Node",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": true
+        }
+      ]
+    }
+  }
+]

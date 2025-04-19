@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_ReplaceAlteration",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Perk Replacement",
+      "Description": "You have unlocked access to the Perk Recombobulator.\r\n\r\nVisit the Armory tab to replace a Perk on a schematic of your choice.\r\n\r\nTo replace a Perk:\r\nSelect Armory\r\nSelect Schematics\r\nSelect a Schematic\r\nSelect Upgrade/Inspect\r\nSelect Upgrade\r\nSelect Modify Perks\r\nSelect a Perk to Modify\r\nSelect a Perk under Replacements",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "alteration_respec",
+          "ObjectiveState": "alteration_respec",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Replace a Perk",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

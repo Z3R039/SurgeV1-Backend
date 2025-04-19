@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_Side_1_D5",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "The Prestige",
+      "Description": "If you can't handle Stonewood at its worst, you don't deserve those 15 survivors...",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "questcollect_survivoritemdata",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Collect",
+          "ItemReference": "/Game/Items/ResourcePickups/SurvivorItemData.SurvivorItemData",
+          "ItemTemplateIdOverride": "",
+          "Description": "Save 15 Survivors in successful missions",
+          "HudShortDescription": "Survivors saved",
+          "Count": 15,
+          "Stage": -1,
+          "bHidden": false
+        },
+        {
+          "BackendName": "complete_pve01_diff5_v2",
+          "ObjectiveState": "complete_pve01_diff5",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete 3 missions in a [UIRating]+ zone",
+          "HudShortDescription": "",
+          "Count": 3,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

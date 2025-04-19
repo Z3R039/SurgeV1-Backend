@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Achievement_ExploreZones",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "(Hidden) World Explorer",
+      "Description": "Quest to track when players fully explore 1500 zones. Once they do, fire off a console achievement.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_exploration_1",
+          "ObjectiveState": "complete_exploration_1",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "(Hidden) Fully explore 1500 zones in successful missions",
+          "HudShortDescription": "",
+          "Count": 1500,
+          "Stage": -1,
+          "bHidden": true
+        }
+      ]
+    }
+  }
+]

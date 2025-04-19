@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_Reactive_Fetch_Hoverboard",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Want to Build a Hoverboard?",
+      "Description": "I just realized you don't have a Hoverboard! Let's fix that. Destroy Hot Rods to collect everything we'll need to build a Hoverboard.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "stonewoodquest_reactive_fetch_hoverboard",
+          "ObjectiveState": "stonewoodquest_reactive_fetch_hoverboard",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Search City Zones for Hot Rods in successful missions in a [UIRating]+ zone",
+          "HudShortDescription": "Hoverboard Parts collected",
+          "Count": 10,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

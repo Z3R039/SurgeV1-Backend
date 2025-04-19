@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_LeaveNoOneBehind_20",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Leave No One Behind - Stage 20",
+      "Description": "Survivors are in need of rescue, Commander. They're counting on you! Save as many as you can.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "questcollect_survivoritemdata",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Collect",
+          "ItemReference": "/Game/Items/ResourcePickups/SurvivorItemData.SurvivorItemData",
+          "ItemTemplateIdOverride": "",
+          "Description": "Save 120 Survivors in successful missions",
+          "HudShortDescription": "Survivors saved",
+          "Count": 120,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

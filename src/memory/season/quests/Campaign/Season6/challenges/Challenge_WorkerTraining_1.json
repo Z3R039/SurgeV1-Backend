@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Challenge_WorkerTraining_1",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Survivor Training - Stage 1",
+      "Description": "Visit the Squads tab to level up a Survivor of your choice. Leveled up Survivors will increase your Homebase power.\r\n\r\nTo level up a Survivor:\r\nSelect Squads\r\nSelect Survivor Squads\r\nSelect Go to All Survivors\r\nSelect a Survivor\r\nSelect Upgrade/Inspect\r\nSelect Level Up",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "upgrade_any_worker",
+          "ObjectiveState": "upgrade_any_worker",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Level Up a Survivor",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

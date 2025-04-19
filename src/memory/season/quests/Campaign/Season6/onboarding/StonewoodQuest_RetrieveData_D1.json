@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "StonewoodQuest_RetrieveData_D1",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Retrieve the Data",
+      "Description": "A research balloon is heading for hostile territory. Save the balloon and recover the intel.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "complete_retrievedata_1",
+          "ObjectiveState": "complete_retrievedata_1",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": "None",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete a Retrieve the Data mission",
+          "HudShortDescription": "Retrieve the Data mission completed",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false
+        }
+      ]
+    }
+  }
+]

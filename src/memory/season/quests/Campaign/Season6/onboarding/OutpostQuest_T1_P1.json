@@ -1,0 +1,13 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "OutpostQuest_T1_P1",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "Coming Soon!",
+      "Description": "",
+      "SeasonXP": 0,
+      "Objectives": []
+    }
+  }
+]

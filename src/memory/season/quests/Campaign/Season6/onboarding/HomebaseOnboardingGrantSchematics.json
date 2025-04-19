@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "HomebaseOnboardingGrantSchematics",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "DisplayName": "(Hidden) Grant Starting Schematics",
+      "Description": "Quest to track when Homebase Storm Shield Defense 1 has been completed. Once it is completed, grant starting schematics behind the scenes to players.",
+      "SeasonXP": 0,
+      "Objectives": [
+        {
+          "BackendName": "questcomplete_outpostquest_t1_l1",
+          "ObjectiveState": "None",
+          "ItemEvent": "EFortQuestObjectiveItemEvent::QuestComplete",
+          "ItemReference": "/Game/Quests/Outpost/OutpostQuest_T1_L1.OutpostQuest_T1_L1",
+          "ItemTemplateIdOverride": "",
+          "Description": "Complete Homebase Storm Shield Defense 1",
+          "HudShortDescription": "",
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": true
+        }
+      ]
+    }
+  }
+]
