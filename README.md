@@ -1,4 +1,9 @@
 
+## MAJOR TODO
+- [x] backend startup without crashes or errors
+- [ ] Fix bot commands not starting up (refreshing commands & loading commands)
+- [ ] Fix postgress "unknown table" (idk if its my brain not braining or the backend doing something wrong tbh)
+
 **Universal Fortnite Backend written in TypeScript using Postgres powered by TypeORM**
 
 ## NOTE
