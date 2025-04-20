@@ -1,61 +1,75 @@
+import { Command } from "../handlers/Command";
 import {
   ApplicationCommandOptionType,
-  CommandInteraction,
+  ChatInputCommandInteraction,
+  Client,
   EmbedBuilder,
   GuildMemberRoleManager,
-  type CacheType,
 } from "discord.js";
-import BaseCommand from "../base/Base";
+import { v4 as uuid } from "uuid";
 import {
   accountService,
   config,
   friendsService,
-  itemStorageService,
   logger,
   profilesService,
-  questsService,
+  receiptsService,
+  seasonStatsService,
   userService,
 } from "../..";
-import { v4 as uuid } from "uuid";
-import ProfileHelper from "../../utilities/profiles";
+import PermissionInfo from "../../utilities/permissions/permissioninfo";
+import ProfileHelper from "../../utilities/ProfileHelper";
 
-export default class RegisterCommand extends BaseCommand {
-  data = {
-    name: "register",
-    description: "Register an account for Chronos.",
-    options: [
-      {
-        name: "email",
-        type: ApplicationCommandOptionType.String,
-        description: "The email for your account.",
-        required: true,
-      },
-      {
-        name: "password",
-        type: ApplicationCommandOptionType.String,
-        description: "The password for your account",
-        required: true,
-      },
-    ],
-  };
+export default class UserRegisterCommand extends Command {
+  constructor(client: Client) {
+    super(client, {
+      name: "register",
+      description: "Register a new account.",
+      options: [
+        {
+          name: "email",
+          type: ApplicationCommandOptionType.String,
+          description: "The email for your account.",
+          required: true,
+        },
+        {
+          name: "password",
+          type: ApplicationCommandOptionType.String,
+          description: "The password for your account",
+          required: true,
+        },
+      ],
+      permissions: [],
+    });
+  }
 
-  async execute(interaction: CommandInteraction<CacheType>): Promise<any> {
+  async execute(interaction: ChatInputCommandInteraction): Promise<void> {
     await interaction.deferReply({ ephemeral: true });
 
-    const display_name = interaction.user.username;
-    const email = interaction.options.get("email", true).value;
-    const password = interaction.options.get("password", true).value;
+    const email = interaction.options.getString("email");
+    const password = interaction.options.getString("password");
+    const username = interaction.user.username;
 
-    const emailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    const iconURL = interaction.user.avatarURL();
 
-    if (!emailRegex.test(email as string)) {
-      const embed = new EmbedBuilder()
-        .setTitle("Not a Valid Email")
-        .setDescription("The provided email is not valid.")
+    if (!email || !password) {
+      await interaction.editReply({
+        content: "You must provide an email and password.",
+      });
+      return;
+    }
+
+    if (!emailRegex.test(email)) {
+      const emebed = new EmbedBuilder()
+        .setTitle("Invalid email")
+        .setDescription("The email you provided is invalid.")
         .setColor("Red")
-        .setTimestamp();
+        .setTimestamp()
+        .setAuthor({ name: username, iconURL: iconURL! });
 
-      return await interaction.editReply({ embeds: [embed] });
+      await interaction.editReply({ embeds: [emebed] });
+      return;
     }
 
     const discordId = interaction.user.id;
@@ -64,20 +78,22 @@ export default class RegisterCommand extends BaseCommand {
     const account = await accountService.findUserByDiscordId(discordId);
 
     if (user || account) {
-      const embed = new EmbedBuilder()
-        .setTitle("Account Exists")
-        .setDescription("You have already registered an account.")
+      const emebed = new EmbedBuilder()
+        .setTitle("Account already exists")
+        .setDescription("An account already exists for this user.")
         .setColor("Red")
-        .setTimestamp();
+        .setTimestamp()
+        .setAuthor({ name: username, iconURL: iconURL! });
 
-      return await interaction.editReply({ embeds: [embed] });
+      await interaction.editReply({ embeds: [emebed] });
+      return;
     }
 
-    const hashedPassword = await Bun.password.hash(password as string);
-    const accountId = uuid().replace(/-/gi, "");
+    const hashedPassword = await Bun.password.hash(password);
+    const accountId = uuid().replace(/-/g, "");
 
-    const Roles = interaction.member?.roles as GuildMemberRoleManager;
-    const roles = Roles.cache.map((role) => role.name);
+    const roles = interaction.member?.roles as GuildMemberRoleManager;
+    const userRoles = roles.cache.map((role) => role.name);
 
     try {
       await userService
@@ -87,7 +103,7 @@ export default class RegisterCommand extends BaseCommand {
           password: hashedPassword,
           accountId,
           discordId,
-          roles,
+          roles: userRoles,
           banned: false,
           has_all_items: false,
           lastLogin: "",
@@ -124,7 +140,6 @@ export default class RegisterCommand extends BaseCommand {
 
             discordId,
 
-            stats: ProfileHelper.createStatsTemplate(),
             arenaHype: 0,
           });
 
@@ -151,38 +166,52 @@ export default class RegisterCommand extends BaseCommand {
           await friendsService.create({
             accountId: newUser.accountId,
           });
+
+          await receiptsService.create(newUser.accountId, []);
+          new PermissionInfo(newUser.accountId);
+
+          const statsTemplate = ProfileHelper.createStatsTemplate();
+
+          await seasonStatsService.create({
+            solos: statsTemplate.solos,
+            duos: statsTemplate.duos,
+            squads: statsTemplate.squads,
+            ltm: statsTemplate.ltm,
+            accountId: newUser.accountId,
+          });
         });
 
-      const embed = new EmbedBuilder()
-        .setTitle("Account Created")
-        .setDescription("Your account has been successfully created")
-        .setColor("Blurple")
-        .addFields(
+      const emebd = new EmbedBuilder()
+        .setTitle("Successfully registered account")
+        .setDescription("Your account has been successfully registered.")
+        .setColor("Green")
+        .setTimestamp()
+        .setAuthor({ name: username, iconURL: iconURL! })
+        .setFields([
           {
-            name: "Display Name",
-            value: display_name as string,
-            inline: false,
+            name: "Username",
+            value: username,
+            inline: true,
           },
           {
             name: "Email",
-            value: email as string,
-            inline: false,
+            value: email,
+            inline: true,
           },
-        )
+        ]);
 
-        .setTimestamp();
-
-      await interaction.editReply({ embeds: [embed] });
+      await interaction.editReply({ embeds: [emebd] });
     } catch (error) {
-      logger.error(`Failed to register account: ${error}`);
-
-      const embed = new EmbedBuilder()
-        .setTitle("Account Registration Failed")
-        .setDescription("Failed to register account, please try again.")
+      logger.error(`Error registering account: ${error}`);
+      const emebed = new EmbedBuilder()
+        .setTitle("Error registering account")
+        .setDescription("There was an error registering your account.")
         .setColor("Red")
-        .setTimestamp();
+        .setTimestamp()
+        .setAuthor({ name: username, iconURL: iconURL! });
 
-      return await interaction.editReply({ embeds: [embed] });
+      await interaction.editReply({ embeds: [emebed] });
+      return;
     }
   }
 }
