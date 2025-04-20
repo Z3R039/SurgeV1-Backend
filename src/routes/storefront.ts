@@ -11,6 +11,13 @@ export default function () {
     return c.json(keychainResponse.data);
   });
 
+  // Cache for storefront data to prevent constant refreshing
+  let storefrontCache = {
+    data: null,
+    timestamp: 0,
+    expiresIn: 60000 // Cache expires after 1 minute
+  };
+
   app.get("/fortnite/api/storefront/v2/catalog", async (c) => {
     const timestamp = new Date().toISOString();
     const useragent = c.req.header("User-Agent");
@@ -30,7 +37,19 @@ export default function () {
       );
 
     if (uahelper.season === 0) return c.json({});
+    
+    // Check if we have a valid cache
+    const currentTime = Date.now();
+    if (storefrontCache.data && currentTime - storefrontCache.timestamp < storefrontCache.expiresIn) {
+      // Return cached data if it's still valid
+      if (uahelper.season === config.currentSeason) {
+        return c.json(storefrontCache.data);
+      } else {
+        return c.json([]);
+      }
+    }
 
+    // If no valid cache, fetch fresh data
     const [storefrontData] = await Promise.all([itemStorageService.getItemByType("storefront")]);
 
     if (!storefrontData)
@@ -39,36 +58,9 @@ export default function () {
         400,
       );
 
-    // const ProfileRevisions = c.req.header("X-Epic-ProfileRevisions");
-
-    // if (!ProfileRevisions)
-    //   return c.json(
-    //     errors.createError(
-    //       400,
-    //       c.req.url,
-    //       "header 'X-Epic-ProfileRevisions' is missing.",
-    //       timestamp,
-    //     ),
-    //     400,
-    //   );
-
-    // const revisions = JSON.parse(ProfileRevisions);
-
-    // const clientCommandRevision = revisions.find(
-    //   (rev: any) => rev.profileId === "athena",
-    // ).clientCommandRevision;
-
-    // if (!clientCommandRevision) {
-    //   return c.json(
-    //     errors.createError(
-    //       400,
-    //       c.req.url,
-    //       "Failed to get clientCommandRevision from X-Epic-ProfileRevisions.",
-    //       timestamp,
-    //     ),
-    //     400,
-    //   );
-    // }
+    // Update cache
+    storefrontCache.data = storefrontData.data;
+    storefrontCache.timestamp = currentTime;
 
     if (uahelper.season === config.currentSeason) {
       return c.json(storefrontData.data);
