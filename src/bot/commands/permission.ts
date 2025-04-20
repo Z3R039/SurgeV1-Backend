@@ -121,9 +121,6 @@ export default class PermissionCommand extends BaseCommand {
 
         const permissionInfo = new PermissionInfo(
           account.accountId,
-          user.username,
-          "3446cd72694c4a4485d81b77adbb2141",
-          "authorization_code",
         );
 
         const success = await permissionInfo.addPermission({
@@ -162,9 +159,6 @@ export default class PermissionCommand extends BaseCommand {
 
         const permissionInfo = new PermissionInfo(
           account.accountId,
-          user.username,
-          "3446cd72694c4a4485d81b77adbb2141",
-          "authorization_code",
         );
 
         const success = await permissionInfo.removePermission(permission.value as string);
