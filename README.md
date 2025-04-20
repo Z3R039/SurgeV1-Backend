@@ -67,7 +67,8 @@ Version's 12.41 onwards are not supported and your character will be invisible.
 - [ ] Creative Save Island Plots into profile / database
 - [ ] Host user made creative islands
 - [ ] Optimizations (needs alot ngl)
-- [ ] Region Matchmaker
+- [x] Gameserver credential generator
+- [x] Region Matchmaker
 - [ ] Add support for seasons above 12.41
 - [ ] Moderator Access only mode (and supporters later on)
 - [ ] Voice chat
