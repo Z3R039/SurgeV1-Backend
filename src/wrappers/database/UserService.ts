@@ -138,22 +138,4 @@ export default class UserService {
       return false;
     }
   }
-
-  public async findAllByRole(role: string): Promise<User[]> {
-    try {
-      const users = await this.userRepository
-        .createQueryBuilder("user")
-        .where(":role = ANY(user.roles)", { role })
-        .getMany();
-      
-      return users;
-    } catch (error) {
-      logger.error(`Error finding users by role: ${error}`);
-      return [];
-    }
-  }
-
-  public async deleteByAccountId(accountId: string): Promise<boolean> {
-    return this.delete(accountId);
-  }
 }

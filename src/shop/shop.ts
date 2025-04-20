@@ -42,22 +42,9 @@ export namespace ShopGenerator {
   export const items: Record<string, JSONResponse> = {};
   export const sets: Record<string, Set> = {};
   export const shop = createShop();
-  
-  // Track when the shop was last generated to prevent excessive refreshing
-  let lastShopGeneration = 0;
-  const SHOP_REFRESH_COOLDOWN = 30000; // 30 seconds cooldown between refreshes
 
   export async function generate() {
     try {
-      // Check if shop was recently generated to prevent excessive refreshing
-      const currentTime = Date.now();
-      if (lastShopGeneration > 0 && currentTime - lastShopGeneration < SHOP_REFRESH_COOLDOWN) {
-        logger.info("Shop generation skipped - cooldown period active");
-        return; // Skip regeneration during cooldown period
-      }
-      
-      // Update last generation timestamp
-      lastShopGeneration = currentTime;
       const [request, displayAssets] = await Promise.all([
         fetch("https://fortnite-api.com/v2/cosmetics/br?responseFlags=4").then((res) =>
           res.json(),

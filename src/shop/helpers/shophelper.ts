@@ -64,9 +64,7 @@ export namespace ShopHelper {
   }
 
   export function getCurrentShop(): Shop {
-    // Return a deep copy of the shop to prevent reference issues
-    // that could cause UI refreshing problems
-    return JSON.parse(JSON.stringify(ShopGenerator.shop));
+    return ShopGenerator.shop;
   }
 
   export function createCardPackStorefront(shop: Shop, sectionName: string): CardPackStorefront {

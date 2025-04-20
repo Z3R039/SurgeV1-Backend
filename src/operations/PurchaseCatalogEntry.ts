@@ -230,10 +230,7 @@ export default async function (c: Context) {
       }
 
       const alreadyOwned = currentActiveStorefront.itemGrants.some(
-        (item: ItemGrants) => {
-          // Check if the item exists in the athena profile and has a valid quantity
-          return athena.items[item.templateId] && athena.items[item.templateId].quantity > 0;
-        }
+        (item: ItemGrants) => athena.items[item.templateId],
       );
       if (alreadyOwned) {
         return c.json(
