@@ -1,6 +1,9 @@
 
 ### SurgeV1 Backend
 
+## Doesn't work its a 50/50 wth many bugs
+## Not made for production usage
+
 
 **Universal Fortnite Backend written in TypeScript using Postgres powered by TypeORM**
 
