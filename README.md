@@ -33,7 +33,6 @@ Version's 12.41 onwards are not supported and your character will be invisible.
 - [ ] Random api stalls or bugs appearing after adding new features (unsure ngl because they pop out of nowhere **T-T**)
 - [ ] Fix duplicate commands error
 - [ ] Fix postgress "unknown table" (idk if its my brain not braining or the backend doing something wrong tbh)
-![Banner](https://i.ibb.co/8Dd4sgww/Screenshot-2025-04-19-184354.png)
 
 ## TODO Features
 
